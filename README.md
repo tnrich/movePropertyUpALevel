@@ -4,19 +4,21 @@ A simple function that takes an object and a property name and moves the propert
 #Useage
 
 ```
-var movePropertyUpALevel = require('./movePropertyUpALevel');
-movePropertyUpALevel(fakeObj, 'serialize');
-var fakeObj = {
-	poodle: {
-		first: {
-			hey: 'you'
-		},
-		second: 'meAgain'
-	}
-};
+	var movePropertyUpALevel = require('movePropertyUpALevel');
+	
+	var fakeObj = {
+		poodle: {
+			first: {
+				hey: 'you'
+			},
+			second: 'meAgain'
+		}
+	};
 
-console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
-//'you'
-console.log('fakeObj.poodle: ' + fakeObj.poodle);
-//undefined
+	movePropertyUpALevel(fakeObj, 'serialize');
+
+	console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
+	//'you'
+	console.log('fakeObj.poodle: ' + fakeObj.poodle);
+	//undefined
 ```

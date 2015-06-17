@@ -1,0 +1,26 @@
+{
+  "name": "move-property-up-a-level",
+  "version": "1.0.0",
+  "description": "A simple function that takes an object and a property name and moves the property up a level in the object",
+  "main": "movePropertyUpALevel.js",
+  "scripts": {
+    "test": "node movePropertyUpALevel.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnrich/movePropertyUpALevel.git"
+  },
+  "keywords": [
+    "object",
+    "property",
+    "flatten",
+    "level",
+    "up"
+  ],
+  "author": "tnrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnrich/movePropertyUpALevel/issues"
+  },
+  "homepage": "https://github.com/tnrich/movePropertyUpALevel#readme"
+}
