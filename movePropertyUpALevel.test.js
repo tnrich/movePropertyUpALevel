@@ -10,9 +10,9 @@ var fakeObj = {
 };
 movePropertyUpALevel(fakeObj, 'poodle');
 
-console.log(fakeObj.first.hey);
+console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
 //'you'
-console.log(fakeObj.poodle);
+console.log('fakeObj.poodle: ' + fakeObj.poodle);
 //undefined
 
 

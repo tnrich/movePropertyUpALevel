@@ -19,8 +19,8 @@ A simple function that takes an object and a property name and moves the propert
 
 	movePropertyUpALevel(fakeObj, 'poodle');
 
-	console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
+	console.log(fakeObj.first.hey);
 	//'you'
-	console.log('fakeObj.poodle: ' + fakeObj.poodle);
+	console.log(fakeObj.poodle);
 	//undefined
 ```
