@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tnrich/movePropertyUpALevel.svg?branch=master)](https://travis-ci.org/tnrich/movePropertyUpALevel)
+
 #movePropertyUpALevel
 A simple function that takes an object and a property name and moves the property up a level in the object
 
