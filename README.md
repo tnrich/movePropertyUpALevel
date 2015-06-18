@@ -17,7 +17,7 @@ A simple function that takes an object and a property name and moves the propert
 		}
 	};
 
-	movePropertyUpALevel(fakeObj, 'serialize');
+	movePropertyUpALevel(fakeObj, 'poodle');
 
 	console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
 	//'you'
