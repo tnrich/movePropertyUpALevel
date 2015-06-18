@@ -1,6 +1,6 @@
 {
   "name": "move-property-up-a-level",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple function that takes an object and a property name and moves the property up a level in the object",
   "main": "movePropertyUpALevel.js",
   "scripts": {
