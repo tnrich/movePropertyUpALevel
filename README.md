@@ -6,7 +6,7 @@ A simple function that takes an object and a property name and moves the propert
 #Useage
 
 ```
-	var movePropertyUpALevel = require('movePropertyUpALevel');
+	var movePropertyUpALevel = require('move-property-up-a-level');
 	
 	var fakeObj = {
 		poodle: {
