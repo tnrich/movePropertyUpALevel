@@ -1,4 +1,5 @@
 var assert = require('assert');
+var util = require('util');
 var movePropertyUpALevel = require('./movePropertyUpALevel');
 var fakeObj = {
 	poodle: {
@@ -18,3 +19,25 @@ console.log('fakeObj.poodle: ' + fakeObj.poodle);
 
 assert.equal('you',fakeObj.first.hey);
 assert.equal(undefined,fakeObj.poodle);
+
+
+fakeObj = {
+	dog: {
+		notes: [
+			{
+				inData: {
+					value: 'thomas',
+					name: 'doowop'
+				}
+			}
+		],
+		second: 'meAgain'
+	}
+};
+fakeObj.dog.notes.forEach(function(note){
+	movePropertyUpALevel(note, 'inData');
+});
+
+console.log(JSON.stringify(fakeObj, null, 4));
+
+// assert.equal(undefined,fakeObj.poodle);
