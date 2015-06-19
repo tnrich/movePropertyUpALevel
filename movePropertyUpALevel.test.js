@@ -7,9 +7,15 @@ var fakeObj = {
 			hey: 'you'
 		},
 		second: 'meAgain'
+	},
+	person: {
+		t: [{
+			a: 'b'
+		}]
 	}
 };
 movePropertyUpALevel(fakeObj, 'poodle');
+console.log(JSON.stringify(fakeObj, null, 4));
 
 console.log('fakeObj.first.hey: ' + fakeObj.first.hey);
 //'you'
